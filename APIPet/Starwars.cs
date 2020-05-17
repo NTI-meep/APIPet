@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace APIPet
 {
-    class Starwars
+    class Starwars 
     {
-        public string name;
+        // Används för apien för att kunna lagra den specifika informationen som man vill ha ut från den specifika datan som man valde i main , i det här fallet name och heigh som sedan kan ankallas med starwars i main. 
+        public string name; 
         public int height;
 
     }

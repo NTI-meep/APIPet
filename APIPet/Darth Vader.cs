@@ -8,7 +8,7 @@ namespace APIPet
 {
     class Darth_Vader : Spawner
     {
-        public Darth_Vader()
+        public Darth_Vader() // Ändrar manuellt de värden som hämtas från spawner vilket är basklassen 
         {
             Food = 9;
             Spirit = 8;
@@ -24,10 +24,10 @@ namespace APIPet
         }
 
 
-       Random generator = new Random();
+       Random generator = new Random(); // Randomiserar variabler 
 
 
-       public int Feed()
+       public int Feed() // Metod som ändrar den givna variabeln med hjälp av generatorn varav numrerna den kan sluta upp att använda skiljer sig mellan metoderna den returnera sedan numret den fått ut den fungerar samma för de andra metoderna
         {
 
            Food = Food + generator.Next(1, 2);

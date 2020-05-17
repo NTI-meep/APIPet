@@ -8,7 +8,7 @@ namespace APIPet
 {
     class Yoda : Spawner
     {
-       
+       // Använder samma logik som darth wader 
 
 
         public void printInstructions()
